@@ -8,9 +8,9 @@ Ce script cree un fichier c qui est le resultat du preprocesseur C
 
 ### Usage
 <code>
-$ export CFILE=main.c
-$ ./0-preprocessor 
-$ tail c
+    $ export CFILE=main.c
+    $ ./0-preprocessor 
+    $ tail c
 </code>
 
 
@@ -50,10 +50,25 @@ This script generates the assembly code of a C code
 
 This script compiles a C file and creates an executable 
 
-### USAGE
+### Usage
 
 <code>
     export CFILE=main.c
     ./3-name
     cisfun      # the executable
 </code>
+
+## 4-puts.c
+
+### Description
+
+Affiche une chaine de caracteres avec la fonction puts
+
+### Usage
+
+- La compilation
+
+<code>
+    $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 4-puts.c && ./a.out
+</code>
+

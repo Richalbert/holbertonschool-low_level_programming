@@ -2,7 +2,8 @@
 
 ## Script contenu dans le repertoire hello-world
 
-### Resume
+### Script sur les options de gcc
+#### Resume
 
 <code>
     gcc -E main.c   # Preprocess only; do not compile, assemble or link.
@@ -15,4 +16,9 @@
 - **1-compiler** : teste le compilateur, mais pas le linker
 - **2-assembler** : teste la creation de code assembleur avec gcc
 - **3-name** : teste la creation d'un executable
+
+### Premiers programmes C
+#### Resume
+
+- la fonction puts : 4-puts.c
 
