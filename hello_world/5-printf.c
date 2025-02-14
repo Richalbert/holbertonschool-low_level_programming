@@ -8,7 +8,7 @@
 int main(void)
 {
 const char *string = "with proper grammar, but the outcome is a piece of art, ";
-printf("%s", string);
+printf("%s\n", string);
 return (0);
 }
 
