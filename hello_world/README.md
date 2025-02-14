@@ -62,7 +62,7 @@ This script compiles a C file and creates an executable
 
 ### Description
 
-Affiche une chaine de caracteres avec la fonction puts
+Affiche une chaine de caracteres avec la fonction puts()
 
 ### Usage
 
@@ -72,3 +72,14 @@ Affiche une chaine de caracteres avec la fonction puts
     $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 4-puts.c && ./a.out
 </code>
 
+## 5-printf.c
+
+### Description
+
+Affiche une chaine de caracteres avec la fonction printf()
+
+- La compilation
+
+<code>
+    $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 5-printf.c
+</code>

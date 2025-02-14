@@ -21,4 +21,4 @@
 #### Resume
 
 - la fonction puts : 4-puts.c
-
+- la fonction printf: 5-printf.c
