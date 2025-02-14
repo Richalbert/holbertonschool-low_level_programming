@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-const char *string = "with proper grammar, but the outcome is a piece of art,";
+const char *string = "with proper grammar, but the outcome is a piece of art, ";
 printf("%s", string);
 return (0);
 }
