@@ -43,3 +43,17 @@ This script generates the assembly code of a C code
     $ cat main.s    # to see the assembly code
 </code>
 
+
+## 3-name
+
+### Description
+
+This script compiles a C file and creates an executable 
+
+### USAGE
+
+<code>
+    export CFILE=main.c
+    ./3-name
+    cisfun      # the executable
+</code>
