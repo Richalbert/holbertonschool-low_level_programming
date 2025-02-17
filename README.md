@@ -28,3 +28,5 @@
 
 - cf wiki (gcc main.c)
 - 2 commandes ibriquees : 100-intel
+
+## Le repertoire variables_if_else_while
