@@ -23,3 +23,8 @@
 - la fonction puts() : 4-puts.c
 - la fonction printf() : 5-printf.c
 - la fonction sizeof() : 6-size.c
+
+### Advanced scripts
+
+- cf wiki (gcc main.c)
+- 2 commandes ibriquees : 100-intel

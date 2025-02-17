@@ -98,3 +98,18 @@ Affiche la taille memoire des types de base
     $ gcc 6-size.c -m32 -o size32 2> /tmp/32    # pour forcer le 32 bits
     $ gcc 6-size.c -m64 -o size64 2> /tmp/64    # pour forcer le 64 bits
 </code>
+
+## 100-intel
+
+### Description
+
+Affiche le code assembleur d'un code C
+
+### Usage
+
+<code>
+    $ export CFILE=main.c
+    $ cat main.c            # To see the C code
+    $ ./100-intel           
+    cat main.s              # To see the result (assembly code)
+</code>
