@@ -20,5 +20,6 @@
 ### Premiers programmes C
 #### Resume
 
-- la fonction puts : 4-puts.c
-- la fonction printf: 5-printf.c
+- la fonction puts() : 4-puts.c
+- la fonction printf() : 5-printf.c
+- la fonction sizeof() : 6-size.c
