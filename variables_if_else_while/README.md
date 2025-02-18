@@ -136,3 +136,6 @@ This programprints all the numbers of base 16 in lowercase
 $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 8-print_base16.c -o 8-print_base16
 $ ./8-print_base16
 </code>
+
+### 9-print_comb.c
+
