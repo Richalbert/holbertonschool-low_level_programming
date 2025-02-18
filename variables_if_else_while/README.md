@@ -84,3 +84,29 @@ This program prints the alphabet in lowecase without 2 characters
     $ ./4-print_alphabt
 </code>
 
+## 5-print_numbers.c
+
+### Description
+
+This program prints all single digit numbers of base 10
+
+### Usage
+
+<code>
+    $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-print_numbers.c -o 5-print_numbers
+    $ ./5-print_numbers
+</code>
+
+
+## 6-print_numberz.c
+
+### Description
+
+This program prints all single digit numbers of base 10, like a caractere
+
+### Usage
+
+<code>
+    $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 6-print_numberz.c -o 6-print_numberz
+    $ ./6-print_numberz 
+</code>

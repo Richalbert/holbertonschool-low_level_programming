@@ -36,3 +36,7 @@ qq exemple d'utilisation de :
 - while (and if) avec 1-last_digit.c
 - for avec 2-print_alphabet.c et 3-print_alphabets.c
 - for (and if...continue) avec 4-print_alphabt.c
+
+exemple d'utilisation de
+- printf()
+- putchar() avec 6-print_numberz.c
