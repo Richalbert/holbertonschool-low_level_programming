@@ -55,3 +55,18 @@ This program prints the alphabet in lowercase.
     $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-print_alphabet.c -o 2-print_alphabet
     $ ./2-print_alphabet
 </code>
+
+
+
+## 3-print_alphabets.c
+
+### Description
+
+This program prints the alphabet in lowercase and upercase.
+
+### Usage 
+
+<code>
+    $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-print_alphabets.c -o 3-print_alphabets
+    $ ./3-print_alphabets
+</code>
