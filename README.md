@@ -39,4 +39,4 @@ qq exemple d'utilisation de :
 
 exemple d'utilisation de
 - printf()
-- putchar() avec 6-print_numberz.c
+- putchar() avec 6-print_numberz.c, 7-print_tebahpla.c
