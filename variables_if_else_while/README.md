@@ -124,3 +124,15 @@ This program prints the alphabet in lowercase and reverse
     $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 7-print_tebahpla.c -o 7-print_tebahpla
     $ ./7-print_tebahpla
 </code>
+
+### 8-print_base16.c
+
+### Description
+
+This programprints all the numbers of base 16 in lowercase
+
+### Usage
+<code>
+$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 8-print_base16.c -o 8-print_base16
+$ ./8-print_base16
+</code>
