@@ -33,5 +33,6 @@
 
 qq exemple d'utilisation de :
 - if avec 0-positive_or_negative.c 
-- while avec 1-last_digit.c
+- while (and if) avec 1-last_digit.c
 - for avec 2-print_alphabet.c et 3-print_alphabets.c
+- for (and if...continue) avec 4-print_alphabt.c
