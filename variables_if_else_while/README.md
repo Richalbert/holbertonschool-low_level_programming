@@ -39,4 +39,19 @@ This program will assign a random number to the variable n each time it is execu
 
 <code>
     $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-last_digit.c -o 1-last_digit
+    $ ./1-last_digit
+</code>
+
+
+## 2-print_alphabet.c
+
+### Description
+
+This program prints the alphabet in lowercase.
+
+### Usage 
+
+<code>
+    $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-print_alphabet.c -o 2-print_alphabet
+    $ ./2-print_alphabet
 </code>
