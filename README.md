@@ -30,3 +30,7 @@
 - 2 commandes ibriquees : 100-intel
 
 ## Le repertoire variables_if_else_while
+
+qq exemple d'utilisation de :
+- if avec 0-positive_or_negative.c 
+- while avec 1-last_digit.c
