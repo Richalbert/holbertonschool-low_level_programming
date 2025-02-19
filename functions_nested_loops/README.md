@@ -8,3 +8,7 @@
 
 ## Task 2
 ![task2](Todo_2025-02-19-1122.png)
+
+## Task 3
+![task3](Todo_2025-02-19-1440.png)
+
