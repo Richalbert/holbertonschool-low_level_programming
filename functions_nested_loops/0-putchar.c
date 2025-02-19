@@ -10,7 +10,7 @@
 #include <string.h>
 
 /* more headers goes there */
-#include "_putchar.h"
+#include "main.h"
 
 /* betty style doc for function main goes there */
 
