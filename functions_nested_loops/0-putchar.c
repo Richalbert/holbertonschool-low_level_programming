@@ -3,7 +3,7 @@
  * Use _putchar()
  *
  * Description :
- *	This program will print _putchar with _putchar()
+ *	This program will print "_putchar" with _putchar()
  */
 
 #include <stdio.h>
