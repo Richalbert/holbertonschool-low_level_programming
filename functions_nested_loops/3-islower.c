@@ -11,13 +11,10 @@ int _islower(int c)
 {
 	int resultat;
 
-	/* c is uppercase */
-	if (c >= 'A' && c <= 'Z')
-		resultat = 0;
-
-	/* c is lowercase*/
 	if (c >= 'a' && c <= 'z')
 		resultat = 1;
+	else
+		resultat = 0;
 
 	return (resultat);
 }
