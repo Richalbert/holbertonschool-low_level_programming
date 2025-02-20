@@ -7,16 +7,19 @@
 ![task1](image/Todo_2025-02-19-0928.png)
 
 ## Task 2
-![task2](Todo_2025-02-19-1122.png)
+![task2](image/Todo_2025-02-19-1122.png)
 
 ## Task 3
-![task3](Todo_2025-02-19-1440.png)
+![task3](image/Todo_2025-02-19-1440.png)
 
 ## Task 4
-![task4](Todo-2025-02-19-1516.png)
+![task4](image/Todo-2025-02-19-1516.png)
 
 ## Task 5
-![task5](Todo-2025-02-19-1532.png)
+![task5](image/Todo-2025-02-19-1532.png)
 
 ## Task 6
-![task6](Todo_2025-02-20-0900.png)
+![task6](image/Todo_2025-02-20-0900.png)
+
+## Task 7
+![task7](image/Todo_2025-02-20-1328.png)
