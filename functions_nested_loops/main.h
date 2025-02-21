@@ -14,4 +14,7 @@ int _abs(int);
 /* Task 7 */
 int print_last_digit(int);
 
+/* Task 8 */
+void jack_bauer(void);
+
 #endif
