@@ -14,7 +14,7 @@ int print_last_digit(int n)
 	n = n % 10;
 
 	/* ce chiffre doit etre positif */
-	if (n < 0) 
+	if (n < 0)
 		n = -n;
 
 	/* on passe la valeur ascii du chiffre */
