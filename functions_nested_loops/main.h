@@ -17,4 +17,7 @@ int print_last_digit(int);
 /* Task 8 */
 void jack_bauer(void);
 
+/* Task 9 */
+void times_table(void);
+
 #endif
