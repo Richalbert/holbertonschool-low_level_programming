@@ -24,3 +24,7 @@
 ## Task 7
 ![task7](image/todo_2025-02-24-1508.png)
 
+## Task 8
+![task8](image/todo_2025-02-24_1533.png)
+
+
