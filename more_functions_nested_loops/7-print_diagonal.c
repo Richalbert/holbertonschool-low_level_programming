@@ -10,7 +10,7 @@ void print_diagonal(int n)
 	int i, j;
 	int compteur;
 
-	if (n == 0)
+	if (n <= 0)
 		_putchar('\n');
 
 	compteur = 0;
