@@ -16,4 +16,7 @@ int mul(int a, int b);
 int _putchar(int);
 void print_numbers(void);
 
+/* Task 4 */
+void print_most_numbers(void);
+
 #endif
