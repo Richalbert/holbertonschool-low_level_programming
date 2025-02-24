@@ -31,4 +31,9 @@ void print_diagonal(int n);
 /* Task 8 */
 void print_square(int size);
 
+/* Task 9 */
+
+/* Task 10 */
+void print_triangle(int size);
+
 #endif
