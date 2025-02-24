@@ -17,7 +17,8 @@ int main(void)
 {
 	int i;
 
-	for (i =0; i <= 100; i++)
+
+	for (i = 1; i <= 100; i++)
 	{
 		if ((isMultipleDe3(i)) || (isMultipleDe5(i)))
 		{
