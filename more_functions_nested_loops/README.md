@@ -5,3 +5,7 @@
 
 ## Task 1
 ![task1](image/todo_2025-02-24-1032.png)
+
+## Task 2
+![task2](image/todo_2025-02-24_1045.png)
+
