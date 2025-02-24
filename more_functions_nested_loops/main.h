@@ -13,6 +13,7 @@ int _isdigit(int c);
 int mul(int a, int b);
 
 /* Task 3 */
+int _putchar(int);
 void print_numbers(void);
 
 #endif
