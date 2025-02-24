@@ -18,13 +18,14 @@ void more_numbers(void)
 				unite = i % 10;
 				dizaine = (i -  unite) / 10;
 				_putchar('0' + dizaine);
-				_putchar('0' + unite);
 			}
 			else
 			{
-				_putchar('0' + i);
+				unite = i;
 			}
+				_putchar('0' + unite);
 		}
 		_putchar('\n');
 	}
 }
+
