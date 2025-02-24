@@ -21,4 +21,6 @@
 ## Task 6
 ![task6](image/todo_2025-02-24-1449.png)
 
+## Task 7
+![task7](image/todo_2025-02-24-1508.png)
 
