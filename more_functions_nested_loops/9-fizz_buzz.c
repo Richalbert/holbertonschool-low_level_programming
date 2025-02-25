@@ -17,7 +17,7 @@ int main(void)
 {
 	int i;
 
-	for (i = 1; i <= 100; i++)
+	for (i = 1; i < 100; i++)
 	{
 		if ((isMultipleDe3(i)) || (isMultipleDe5(i)))
 		{
@@ -43,6 +43,9 @@ int main(void)
 			printf("%d ", i);
 		}
 	}
+
+	/* et la 100 ieme valeur est un multiple de 5 */
+	printf("%s", "Buzz");
 
 	return (0);
 }
