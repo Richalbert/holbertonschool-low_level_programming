@@ -33,4 +33,10 @@
 ## Task 10
 ![task10](image/todo_2025-02-24-1648.png)
 
+## Task 11 - recherche du plus grand facteur premier
+![task11](image/todo_2025-02-25-1035.png)
+
+## Task 12
+![task12](image/todo_2025-02-25-1037.png)
+
 
