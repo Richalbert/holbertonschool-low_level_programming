@@ -26,15 +26,17 @@ int main(void)
 			{
 				printf("%s ", "FizzBuzz");
 			}
-
-			if (isMultipleDe3(i))
+			else
 			{
-				printf("%s ", "Fizz");
-			}
+				if (isMultipleDe3(i))
+				{
+					printf("%s ", "Fizz");
+				}
 
-			if (isMultipleDe5(i))
-			{
-				printf("%s ", "Buzz");
+				if (isMultipleDe5(i))
+				{
+					printf("%s ", "Buzz");
+				}
 			}
 		}
 		else
