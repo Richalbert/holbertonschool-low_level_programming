@@ -45,7 +45,7 @@ int main(void)
 	}
 
 	/* et la 100 ieme valeur est un multiple de 5 */
-	printf("%s", "Buzz");
+	printf("%s\n", "Buzz");
 
 	return (0);
 }
