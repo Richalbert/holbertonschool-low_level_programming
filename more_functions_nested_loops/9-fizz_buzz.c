@@ -24,12 +24,12 @@ int main(void)
 		{
 			if (isMultipleDe3Et5(i))
 			{
-				printf("%s ", "FizzBuzz ");
+				printf("%s ", "FizzBuzz");
 			}
 
 			if (isMultipleDe3(i))
 			{
-				printf("%s ", "Fizz ");
+				printf("%s ", "Fizz");
 			}
 
 			if (isMultipleDe5(i))
