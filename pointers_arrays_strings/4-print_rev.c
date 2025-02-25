@@ -1,6 +1,27 @@
 #include "main.h"
 
 /**
+ * _puts - print a string
+ *
+ * @str: a pointer to the string
+ *
+ * Return: nothing
+ */
+void _puts(char *str)
+{
+	char *ptr = str;
+
+	while (*ptr != '\0')
+	{
+		_putchar(*ptr);
+		ptr++;
+	}
+
+	_putchar('\n');
+}
+
+
+/**
  * _strlen - the length of a string
  *
  * @s: a pointer to the string
@@ -36,9 +57,10 @@ void print_rev(char *s)
 
 	ptr = s + longueur;
 
-	for (i = 0; i < longueur + 1; i++)
-	{	_putchar(*ptr);
+	for (i = 1; i < longueur + 1; i++)
+	{
 		ptr--;
+		_putchar(*ptr);
 	}
 
 	_putchar('\n');
