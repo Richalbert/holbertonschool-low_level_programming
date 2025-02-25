@@ -31,7 +31,7 @@ int _strlen(char *s)
 void rev_string(char *s)
 {
 	char *ptr = s;
-	int len = 0;
+	int len;
 	char tmp;
 	int pivot;
 	int i;
@@ -39,16 +39,7 @@ void rev_string(char *s)
 	/* longueur de la chaine */
 	len = _strlen(s);
 
-	if (len % 2 == 0)
-	{
-		/* pas de pivot central */
-		pivot = (len / 2) - 1;
-	}
-	else
-	{
-		/* on permute autour du pivot central */
-		pivot = (len / 2);
-	}
+	pivot = len / 2;
 
 	for (i = 0; i < pivot; i++)
 	{
