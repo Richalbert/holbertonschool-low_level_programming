@@ -2,7 +2,42 @@
 #define _MAIN_H
 
 /* Liste des prototypes des fonctions C */
+/* en relation avec les projets "pointers" */
 
+/* Task 00 */
+void reset_to_98(int *n);
+
+/* Task 01 */
+void swap_int(int *a, int *b);
+
+/* Task 02 */
+int _strlen(char *s);
+
+/* Task 03 */
+void _puts(char *str);
+
+/* Task 04 */
+void print_rev(char *s);
+
+/* Task 05 */
+void rev_string(char *s);
+
+/* Task 06 */
+void puts2(char *str);
+
+/* Task 07 */
+void puts_half(char *str);
+
+/* Task 08 */
+void print_array(int *a, int n);
+
+/* Task 09 */
+char *_strcpy(char *dest, char *src);
+
+/* Task 010 */
+int _atoi(char *s);
+
+/* en relation avec les projets "more pointers" */
 /* Task 0 */
 char *_strcat(char *dest, char *src);
 
