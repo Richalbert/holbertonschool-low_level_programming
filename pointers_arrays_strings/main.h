@@ -1,6 +1,8 @@
 #ifndef _MAIN_H
 #define _MAIN_H
 
+int _putchar(char);
+
 /* Liste des prototypes des fonctions C */
 /* en relation avec les projets "pointers" */
 
