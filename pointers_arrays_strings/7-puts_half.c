@@ -46,9 +46,7 @@ void puts_half(char *str)
 
 		/* on se deplace au debut de l'affichage */
 		for (i = 0; i <= n; i++)
-		{
 			ptr++;
-		}
 
 		/* on affiche la suite a partir d'ici */
 		for (i = n + 1; i < length_of_the_string; i++)
@@ -56,8 +54,6 @@ void puts_half(char *str)
 			_putchar(*ptr);
 			ptr++;
 		}
-
-		_putchar('\n');
 	}
 	else
 	{
@@ -67,9 +63,7 @@ void puts_half(char *str)
 
 		/* on se deplace au debut de l'affichage */
 		for (i = 0; i < n; i++)
-		{
 			ptr++;
-		}
 
 		/* on affiche la suite a partir d'ici */
 		for (i = n; i < length_of_the_string; i++)
@@ -77,7 +71,7 @@ void puts_half(char *str)
 			_putchar(*ptr);
 			ptr++;
 		}
-
-		_putchar('\n');
 	}
+
+	_putchar('\n');
 }
