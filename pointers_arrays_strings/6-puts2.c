@@ -38,12 +38,20 @@ void puts2(char *str)
 	ptr = str;
 	len = _strlen(ptr);
 
-	for (i = 0; i < len - 2; i++)
+	_putchar(*ptr);
+	for (i = 0; i < len - 1; i++)
 	{
+		ptr++;
+		ptr++;
+		if (*ptr == '\0')
+			break;
+		else
+			_putchar(*ptr);
+
 	/*	if (*(ptr + (i * 2)) == '\0')
 			break;
-*/
 		_putchar(*(ptr + (i * 2)));
+*/
 	}
 	_putchar('\n');
 }
