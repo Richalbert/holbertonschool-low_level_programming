@@ -43,6 +43,21 @@ void puts_half(char *str)
 	{
 		/* le nombre de caractere est pair (even) */
 		n = length_of_the_string / 2;
+
+		/* on se deplace au debut de l'affichage */
+		for (i = 0; i < n; i++)
+		{
+			ptr++;
+		}
+
+		/* on affiche la suite a partir d'ici */
+		for (i = n; i < length_of_the_string; i++)
+		{
+			_putchar(*ptr);
+			ptr++;
+		}
+
+		_putchar('\n');
 	}
 	else
 	{
