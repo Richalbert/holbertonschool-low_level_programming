@@ -60,7 +60,7 @@ void rev_string(char *s)
 void puts2(char *str)
 {
 	char *ptr = NULL;
-	int len = -1;
+	long int len = -1;
 	char nouveau_caractere = '\0';
 
 	int i = -1;
