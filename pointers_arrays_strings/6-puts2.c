@@ -38,7 +38,7 @@ void puts2(char *str)
 	ptr = str;
 	len = _strlen(ptr);
 
- 	for (i = 0; i < len; i += 2)
+	for (i = 0; i < len; i += 2)
 	{
 		_putchar(str[i]);
 	}
