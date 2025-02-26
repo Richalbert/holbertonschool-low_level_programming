@@ -42,7 +42,7 @@ void puts_half(char *str)
 	if (length_of_the_string % 2)
 	{
 		/* le nombre de caractere est pair (even) */
-
+		n = length_of_the_string / 2;
 	}
 	else
 	{
