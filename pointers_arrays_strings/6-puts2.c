@@ -69,7 +69,7 @@ void puts2(char *str)
 	len = _strlen(ptr);
 
 	if (len > LIMITATION_C89_LONGUEUR_STRING)
-		len = LIMITATION_C89_LONGUEUR_STRING;
+		len = LIMITATION_C89_LONGUEUR_STRING - 1;
 
 	for (i = 0; i < len; i++)
 	{
