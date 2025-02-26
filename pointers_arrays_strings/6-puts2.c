@@ -38,21 +38,9 @@ void puts2(char *str)
 	ptr = str;
 	len = _strlen(ptr);
 
-	for (i = 0; i < len - 1; i++)
+ 	for (i = 0; i < len; i += 2)
 	{
-		if (*ptr == '\0')
-			break;
-		else
-		{
-			_putchar(*ptr);
-			ptr++;
-			ptr++;
-		}
-	
-	/*	if (*(ptr + (i * 2)) == '\0')
-			break;
-		_putchar(*(ptr + (i * 2)));
-*/
+		_putchar(str[i]);
 	}
 	_putchar('\n');
 }
