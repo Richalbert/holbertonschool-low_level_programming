@@ -40,7 +40,6 @@ void puts_half(char *str)
 	int n;
 	int i;
 
-
 	if (length_of_the_string % 2)
 	{
 		/* le nombre de caractere est pair (even) */
@@ -52,11 +51,13 @@ void puts_half(char *str)
 
 		n = (length_of_the_string + 1) / 2;
 
+		/* on se deplace au debut de l'affichage */
 		for (i = 0; i < n; i++)
 		{
 			ptr++;
 		}
 
+		/* on affiche a partir d'ici */
 		for (i = n; i < length_of_the_string; i++)
 		{
 			_putchar(*ptr);
