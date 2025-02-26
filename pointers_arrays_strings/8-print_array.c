@@ -15,11 +15,18 @@ void print_array(int *a, int n)
 {
 	int i;
 
+	if (n <= 0)
+	{
+		/* ne rien faire */
+		return;
+	}
+
 	for (i = 0; i < n - 1; i++)
 	{
 		printf("%d, ", a[i]);
 	}
 
+	/* affiche le drnier element (sans la virgule et l'espace) */
 	printf("%d\n", a[i]);
 }
 
