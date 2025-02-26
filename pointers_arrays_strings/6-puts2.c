@@ -59,12 +59,17 @@ void rev_string(char *s)
  */
 void puts2(char *str)
 {
+	/* error if string length is greater than ‘509’ ISO C90 compilers */
+	const int LIMITATION_C89_LONGUEUR_STRING = 509;
 	char *ptr = NULL;
 	int len = -1;
 	int i = -1;
 
 	ptr = str;
 	len = _strlen(ptr);
+
+	if (len > LIMITATION_C89_LONGUEUR_STRING)
+		len = LIMITATION_C89_LONGUEUR_STRING;
 
 	for (i = 0; i < len; i++)
 	{
