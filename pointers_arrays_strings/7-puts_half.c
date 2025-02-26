@@ -56,7 +56,7 @@ void puts_half(char *str)
 			ptr++;
 		}
 
-		/* on affiche a partir d'ici */
+		/* on affiche la suite a partir d'ici */
 		for (i = n; i < length_of_the_string; i++)
 		{
 			_putchar(*ptr);
