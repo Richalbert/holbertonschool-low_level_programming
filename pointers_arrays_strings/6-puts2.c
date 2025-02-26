@@ -61,21 +61,13 @@ void puts2(char *str)
 {
 	char *ptr = NULL;
 	long int len = -1;
-	char nouveau_caractere = '\0';
-
 	long int i = -1;
 
 	ptr = str;
 	len = _strlen(ptr);
 
-	for (i = 0; i < len; i++)
+	for (i = 0; i < len - 2; i++)
 	{
-		nouveau_caractere = *(ptr + (i * 2));
-		if (nouveau_caractere == '\0')
-		{
-			break;
-		}
-
 		_putchar(*(ptr + (i * 2)));
 	}
 	_putchar('\n');
