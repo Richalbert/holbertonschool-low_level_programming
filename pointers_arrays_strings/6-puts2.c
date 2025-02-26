@@ -1,26 +1,4 @@
 #include "main.h"
-#include<stdio.h>
-
-/**
- * _strlen - the length of a string
- *
- * @s: a pointer to the string
- *
- * Return: the length of the string
- */
-int _strlen(char *s)
-{
-	char *ptr = s;
-	int compteur = 0;
-
-	while (*ptr != '\0')
-	{
-		ptr++;
-		compteur++;
-	}
-
-	return (compteur);
-}
 
 /**
  * puts2 - print a string
@@ -31,16 +9,14 @@ int _strlen(char *s)
  */
 void puts2(char *str)
 {
-	char *ptr = NULL;
-	int len = -1;
-	int i = -1;
+	int i = 0;
 
-	ptr = str;
-	len = _strlen(ptr);
-
-	for (i = 0; i < len; i += 2)
+	while (str[i] != '\0')
 	{
 		_putchar(str[i]);
+
+		/* on avance de 2 en 2 */
+		i += 2;
 	}
 	_putchar('\n');
 }
