@@ -71,7 +71,7 @@ void puts2(char *str)
 	len = _strlen(ptr);
 
 	if (len > LIMITATION_CHECKER)
-		len = CHECKER ;
+		len = LIMITATION_CHECKER ;
 
 	for (i = 0; i < len; i++)
 	{
