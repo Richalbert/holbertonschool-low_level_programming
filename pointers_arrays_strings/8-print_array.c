@@ -17,7 +17,8 @@ void print_array(int *a, int n)
 
 	if (n <= 0)
 	{
-		/* ne rien faire */
+		/* ne rien faire mais un saut de ligne */
+		printf("\n");
 		return;
 	}
 
