@@ -68,7 +68,7 @@ void puts2(char *str)
 	ptr = str;
 	len = _strlen(ptr);
 
-	for (i = 0; i < len - 1; i++)
+	for (i = 0; i < len; i++)
 	{
 		nouveau_caractere = *(ptr + (i * 2));
 		if (nouveau_caractere == '\0')
