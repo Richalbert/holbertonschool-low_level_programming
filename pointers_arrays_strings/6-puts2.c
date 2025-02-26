@@ -60,14 +60,17 @@ void rev_string(char *s)
 void puts2(char *str)
 {
 	char *ptr = NULL;
-	long int len = -1;
-	long int i = -1;
+	int len = -1;
+	int i = -1;
 
 	ptr = str;
 	len = _strlen(ptr);
 
-	for (i = 0; i < len - 2; i++)
+	for (i = 0; i < len; i++)
 	{
+		if (*(ptr + (i * 2)) == '\0')
+			break;
+
 		_putchar(*(ptr + (i * 2)));
 	}
 	_putchar('\n');
