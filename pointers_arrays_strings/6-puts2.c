@@ -63,7 +63,7 @@ void puts2(char *str)
 	long int len = -1;
 	char nouveau_caractere = '\0';
 
-	int i = -1;
+	long int i = -1;
 
 	ptr = str;
 	len = _strlen(ptr);
