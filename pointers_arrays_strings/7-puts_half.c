@@ -51,7 +51,7 @@ void puts_half(char *str)
 		}
 
 		/* on affiche la suite a partir d'ici */
-		for (i = n; i < length_of_the_string; i++)
+		for (i = n + 1; i < length_of_the_string; i++)
 		{
 			_putchar(*ptr);
 			ptr++;
