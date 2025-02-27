@@ -21,7 +21,9 @@ char *_strcpy(char *dest, char *src)
 		dest[i] = src[i];
 		i++;
 	}
-	_putchar('\0');
+
+	/* on ajoute un \0 a la fin de la chaine */
+	dest[i] = '\0';
 
 	return (dest);
 }
